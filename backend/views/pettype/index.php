@@ -17,7 +17,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <div class="col-md-12">
         <div class="portlet light portlet-fit portlet-datatable bordered">
             <div class="portlet-title">
-                                        <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
+                                        <?php echo $this->render('_search', ['model' => $searchModel]); ?>
                                 <div class="caption">
                     <i class="icon-layers font-green"></i>
                     <span class="caption-subject font-green sbold uppercase">
@@ -40,9 +40,9 @@ $this->params['breadcrumbs'][] = $this->title;
 
                                             <?= AwsGridView::widget([
                         'dataProvider' => $dataProvider,
-                        'filterModel' => $searchModel,
-        'columns' => [
                       
+        'columns' => [
+
 
             'name',
 
