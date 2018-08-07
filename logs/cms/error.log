@@ -1,0 +1,476 @@
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "plugins/ckeditor/ckeditor/ckeditor.js".' in E:\Duan\petshop\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\Duan\petshop\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('plugins/ckedito...', Array)
+#1 E:\Duan\petshop\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\Duan\petshop\backend\web\index.php(22): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'KhÃ´ng tÃ¬m tháº¥y trang.' in E:\Duan\petshop\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\Duan\petshop\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\Duan\petshop\backend\web\index.php(22): yii\base\Application->run()
+#2 {main}
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][application] $_COOKIE = [
+    '_csrf' => '69a5b88a451af804df487f684fc0cd49d00cb6681fe89b81d41bce2f9ebc536fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\">»’úLm^Å%¶ pjÆš¾µªÍëÑ$,LHt Î\";}'
+    'PHPSESSID' => 't5ep0fs88u7t05j1ftcurf7s92'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => '8ndyq'
+    '__captcha/site/captchacount' => 1
+    '__id' => 2
+    '__expire' => 1533668666
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1:8010'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://127.0.0.1:8010/pets/view?id=4'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,vi;q=0.8'
+    'HTTP_COOKIE' => '_csrf=69a5b88a451af804df487f684fc0cd49d00cb6681fe89b81d41bce2f9ebc536fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%3E%05%BB%92%FALm%5E%C5%07%25%B6%A0pj%C6%9A%BE%90%B5%AA%CD%EB%D1%24%11%2CLHt%A0%CE%22%3B%7D; PHPSESSID=t5ep0fs88u7t05j1ftcurf7s92'
+    'PATH' => 'G:\\ProgramData\\Oracle\\Java\\javapath;G:\\Windows\\system32;G:\\Windows;G:\\Windows\\System32\\Wbem;G:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;G:\\Program Files\\Intel\\WiFi\\bin\\;G:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;G:\\Program Files\\Git\\cmd;G:\\Program Files\\TortoiseSVN\\bin;G:\\Program Files\\nodejs\\;E:\\Duan\\reactnative\\platform-tools;G:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;G:\\Program Files\\dotnet\\;G:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;G:\\Program Files\\Intel\\WiFi\\bin\\;G:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;G:\\Users\\Nguyen Quoc Khanh\\AppData\\Local\\atom\\bin;G:\\Users\\Nguyen Quoc Khanh\\AppData\\Roaming\\npm;G:\\Users\\Nguyen Quoc Khanh\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'G:\\Windows'
+    'COMSPEC' => 'G:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'G:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19 Server at 127.0.0.1 Port 8010</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8010'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Duan/petshop/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Duan/petshop/backend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/Duan/petshop/backend/web/index.php'
+    'REMOTE_PORT' => '55187'
+    'REDIRECT_URL' => 'http://127.0.0.1:8010/plugins/ckeditor/ckeditor/ckeditor.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/plugins/ckeditor/ckeditor/ckeditor.js'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533661466.321
+    'REQUEST_TIME' => 1533661466
+]
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Báº¡n khÃ´ng Ä‘Æ°á»£c phÃ©p truy cáº­p chá»©c nÄƒng nÃ y.' in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:88
+Stack trace:
+#0 E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 E:\Duan\petshop\vendor\yiisoft\yii2\base\ActionFilter.php(75): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 E:\Duan\petshop\vendor\yiisoft\yii2\base\Component.php(545): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 E:\Duan\petshop\vendor\yiisoft\yii2\base\Module.php(676): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 E:\Duan\petshop\vendor\yiisoft\yii2\base\Controller.php(144): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 E:\Duan\petshop\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('toolbar', Array)
+#7 E:\Duan\petshop\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('debug/default/t...', Array)
+#8 E:\Duan\petshop\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 E:\Duan\petshop\backend\web\index.php(22): yii\base\Application->run()
+#10 {main}
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][application] $_GET = [
+    'tag' => '5b69d11a2244b'
+]
+
+$_COOKIE = [
+    '_csrf' => '69a5b88a451af804df487f684fc0cd49d00cb6681fe89b81d41bce2f9ebc536fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\">»’úLm^Å%¶ pjÆš¾µªÍëÑ$,LHt Î\";}'
+    'PHPSESSID' => 't5ep0fs88u7t05j1ftcurf7s92'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => '8ndyq'
+    '__captcha/site/captchacount' => 1
+    '__id' => 2
+    '__expire' => 1533668666
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1:8010'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_REFERER' => 'http://127.0.0.1:8010/pets/view?id=4'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,vi;q=0.8'
+    'HTTP_COOKIE' => '_csrf=69a5b88a451af804df487f684fc0cd49d00cb6681fe89b81d41bce2f9ebc536fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%3E%05%BB%92%FALm%5E%C5%07%25%B6%A0pj%C6%9A%BE%90%B5%AA%CD%EB%D1%24%11%2CLHt%A0%CE%22%3B%7D; PHPSESSID=t5ep0fs88u7t05j1ftcurf7s92'
+    'PATH' => 'G:\\ProgramData\\Oracle\\Java\\javapath;G:\\Windows\\system32;G:\\Windows;G:\\Windows\\System32\\Wbem;G:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;G:\\Program Files\\Intel\\WiFi\\bin\\;G:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;G:\\Program Files\\Git\\cmd;G:\\Program Files\\TortoiseSVN\\bin;G:\\Program Files\\nodejs\\;E:\\Duan\\reactnative\\platform-tools;G:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;G:\\Program Files\\dotnet\\;G:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;G:\\Program Files\\Intel\\WiFi\\bin\\;G:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;G:\\Users\\Nguyen Quoc Khanh\\AppData\\Local\\atom\\bin;G:\\Users\\Nguyen Quoc Khanh\\AppData\\Roaming\\npm;G:\\Users\\Nguyen Quoc Khanh\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'G:\\Windows'
+    'COMSPEC' => 'G:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'G:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19 Server at 127.0.0.1 Port 8010</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8010'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Duan/petshop/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Duan/petshop/backend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/Duan/petshop/backend/web/index.php'
+    'REMOTE_PORT' => '55187'
+    'REDIRECT_QUERY_STRING' => 'tag=5b69d11a2244b'
+    'REDIRECT_URL' => 'http://127.0.0.1:8010/debug/default/toolbar?tag=5b69d11a2244b'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'tag=5b69d11a2244b'
+    'REQUEST_URI' => '/debug/default/toolbar?tag=5b69d11a2244b'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533661466.773
+    'REQUEST_TIME' => 1533661466
+]
+2018-08-08 00:04:27 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "plugins/ckeditor/ckeditor/ckeditor.js".' in E:\Duan\petshop\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\Duan\petshop\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('plugins/ckedito...', Array)
+#1 E:\Duan\petshop\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\Duan\petshop\backend\web\index.php(22): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'KhÃ´ng tÃ¬m tháº¥y trang.' in E:\Duan\petshop\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\Duan\petshop\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\Duan\petshop\backend\web\index.php(22): yii\base\Application->run()
+#2 {main}
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][application] $_COOKIE = [
+    '_csrf' => '69a5b88a451af804df487f684fc0cd49d00cb6681fe89b81d41bce2f9ebc536fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\">»’úLm^Å%¶ pjÆš¾µªÍëÑ$,LHt Î\";}'
+    'PHPSESSID' => 't5ep0fs88u7t05j1ftcurf7s92'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => '8ndyq'
+    '__captcha/site/captchacount' => 1
+    '__id' => 2
+    '__expire' => 1533668667
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1:8010'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://127.0.0.1:8010/pets/view?id=4'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,vi;q=0.8'
+    'HTTP_COOKIE' => '_csrf=69a5b88a451af804df487f684fc0cd49d00cb6681fe89b81d41bce2f9ebc536fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%3E%05%BB%92%FALm%5E%C5%07%25%B6%A0pj%C6%9A%BE%90%B5%AA%CD%EB%D1%24%11%2CLHt%A0%CE%22%3B%7D; PHPSESSID=t5ep0fs88u7t05j1ftcurf7s92'
+    'PATH' => 'G:\\ProgramData\\Oracle\\Java\\javapath;G:\\Windows\\system32;G:\\Windows;G:\\Windows\\System32\\Wbem;G:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;G:\\Program Files\\Intel\\WiFi\\bin\\;G:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;G:\\Program Files\\Git\\cmd;G:\\Program Files\\TortoiseSVN\\bin;G:\\Program Files\\nodejs\\;E:\\Duan\\reactnative\\platform-tools;G:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;G:\\Program Files\\dotnet\\;G:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;G:\\Program Files\\Intel\\WiFi\\bin\\;G:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;G:\\Users\\Nguyen Quoc Khanh\\AppData\\Local\\atom\\bin;G:\\Users\\Nguyen Quoc Khanh\\AppData\\Roaming\\npm;G:\\Users\\Nguyen Quoc Khanh\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'G:\\Windows'
+    'COMSPEC' => 'G:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'G:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19 Server at 127.0.0.1 Port 8010</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8010'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Duan/petshop/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Duan/petshop/backend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/Duan/petshop/backend/web/index.php'
+    'REMOTE_PORT' => '55188'
+    'REDIRECT_URL' => 'http://127.0.0.1:8010/plugins/ckeditor/ckeditor/ckeditor.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/plugins/ckeditor/ckeditor/ckeditor.js'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533661466.81
+    'REQUEST_TIME' => 1533661466
+]
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "plugins/ckeditor/ckeditor/ckeditor.js".' in E:\Duan\petshop\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\Duan\petshop\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('plugins/ckedito...', Array)
+#1 E:\Duan\petshop\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\Duan\petshop\backend\web\index.php(22): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'KhÃ´ng tÃ¬m tháº¥y trang.' in E:\Duan\petshop\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\Duan\petshop\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\Duan\petshop\backend\web\index.php(22): yii\base\Application->run()
+#2 {main}
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][application] $_COOKIE = [
+    '_csrf' => '69a5b88a451af804df487f684fc0cd49d00cb6681fe89b81d41bce2f9ebc536fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\">»’úLm^Å%¶ pjÆš¾µªÍëÑ$,LHt Î\";}'
+    'PHPSESSID' => 't5ep0fs88u7t05j1ftcurf7s92'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => '8ndyq'
+    '__captcha/site/captchacount' => 1
+    '__id' => 2
+    '__expire' => 1533668668
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1:8010'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://127.0.0.1:8010/pets/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,vi;q=0.8'
+    'HTTP_COOKIE' => '_csrf=69a5b88a451af804df487f684fc0cd49d00cb6681fe89b81d41bce2f9ebc536fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%3E%05%BB%92%FALm%5E%C5%07%25%B6%A0pj%C6%9A%BE%90%B5%AA%CD%EB%D1%24%11%2CLHt%A0%CE%22%3B%7D; PHPSESSID=t5ep0fs88u7t05j1ftcurf7s92'
+    'PATH' => 'G:\\ProgramData\\Oracle\\Java\\javapath;G:\\Windows\\system32;G:\\Windows;G:\\Windows\\System32\\Wbem;G:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;G:\\Program Files\\Intel\\WiFi\\bin\\;G:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;G:\\Program Files\\Git\\cmd;G:\\Program Files\\TortoiseSVN\\bin;G:\\Program Files\\nodejs\\;E:\\Duan\\reactnative\\platform-tools;G:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;G:\\Program Files\\dotnet\\;G:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;G:\\Program Files\\Intel\\WiFi\\bin\\;G:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;G:\\Users\\Nguyen Quoc Khanh\\AppData\\Local\\atom\\bin;G:\\Users\\Nguyen Quoc Khanh\\AppData\\Roaming\\npm;G:\\Users\\Nguyen Quoc Khanh\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'G:\\Windows'
+    'COMSPEC' => 'G:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'G:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19 Server at 127.0.0.1 Port 8010</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8010'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Duan/petshop/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Duan/petshop/backend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/Duan/petshop/backend/web/index.php'
+    'REMOTE_PORT' => '55187'
+    'REDIRECT_URL' => 'http://127.0.0.1:8010/plugins/ckeditor/ckeditor/ckeditor.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/plugins/ckeditor/ckeditor/ckeditor.js'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533661468.626
+    'REQUEST_TIME' => 1533661468
+]
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Báº¡n khÃ´ng Ä‘Æ°á»£c phÃ©p truy cáº­p chá»©c nÄƒng nÃ y.' in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:88
+Stack trace:
+#0 E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 E:\Duan\petshop\vendor\yiisoft\yii2\base\ActionFilter.php(75): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 E:\Duan\petshop\vendor\yiisoft\yii2\base\Component.php(545): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 E:\Duan\petshop\vendor\yiisoft\yii2\base\Module.php(676): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 E:\Duan\petshop\vendor\yiisoft\yii2\base\Controller.php(144): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 E:\Duan\petshop\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('toolbar', Array)
+#7 E:\Duan\petshop\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('debug/default/t...', Array)
+#8 E:\Duan\petshop\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 E:\Duan\petshop\backend\web\index.php(22): yii\base\Application->run()
+#10 {main}
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][application] $_GET = [
+    'tag' => '5b69d11c3806b'
+]
+
+$_COOKIE = [
+    '_csrf' => '69a5b88a451af804df487f684fc0cd49d00cb6681fe89b81d41bce2f9ebc536fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\">»’úLm^Å%¶ pjÆš¾µªÍëÑ$,LHt Î\";}'
+    'PHPSESSID' => 't5ep0fs88u7t05j1ftcurf7s92'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => '8ndyq'
+    '__captcha/site/captchacount' => 1
+    '__id' => 2
+    '__expire' => 1533668668
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1:8010'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_REFERER' => 'http://127.0.0.1:8010/pets/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,vi;q=0.8'
+    'HTTP_COOKIE' => '_csrf=69a5b88a451af804df487f684fc0cd49d00cb6681fe89b81d41bce2f9ebc536fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%3E%05%BB%92%FALm%5E%C5%07%25%B6%A0pj%C6%9A%BE%90%B5%AA%CD%EB%D1%24%11%2CLHt%A0%CE%22%3B%7D; PHPSESSID=t5ep0fs88u7t05j1ftcurf7s92'
+    'PATH' => 'G:\\ProgramData\\Oracle\\Java\\javapath;G:\\Windows\\system32;G:\\Windows;G:\\Windows\\System32\\Wbem;G:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;G:\\Program Files\\Intel\\WiFi\\bin\\;G:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;G:\\Program Files\\Git\\cmd;G:\\Program Files\\TortoiseSVN\\bin;G:\\Program Files\\nodejs\\;E:\\Duan\\reactnative\\platform-tools;G:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;G:\\Program Files\\dotnet\\;G:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;G:\\Program Files\\Intel\\WiFi\\bin\\;G:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;G:\\Users\\Nguyen Quoc Khanh\\AppData\\Local\\atom\\bin;G:\\Users\\Nguyen Quoc Khanh\\AppData\\Roaming\\npm;G:\\Users\\Nguyen Quoc Khanh\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'G:\\Windows'
+    'COMSPEC' => 'G:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'G:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19 Server at 127.0.0.1 Port 8010</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8010'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Duan/petshop/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Duan/petshop/backend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/Duan/petshop/backend/web/index.php'
+    'REMOTE_PORT' => '55189'
+    'REDIRECT_QUERY_STRING' => 'tag=5b69d11c3806b'
+    'REDIRECT_URL' => 'http://127.0.0.1:8010/debug/default/toolbar?tag=5b69d11c3806b'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'tag=5b69d11c3806b'
+    'REQUEST_URI' => '/debug/default/toolbar?tag=5b69d11c3806b'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533661468.765
+    'REQUEST_TIME' => 1533661468
+]
+2018-08-08 00:04:29 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "plugins/ckeditor/ckeditor/ckeditor.js".' in E:\Duan\petshop\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\Duan\petshop\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('plugins/ckedito...', Array)
+#1 E:\Duan\petshop\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\Duan\petshop\backend\web\index.php(22): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'KhÃ´ng tÃ¬m tháº¥y trang.' in E:\Duan\petshop\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\Duan\petshop\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\Duan\petshop\backend\web\index.php(22): yii\base\Application->run()
+#2 {main}
+2018-08-08 00:04:29 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][application] $_COOKIE = [
+    '_csrf' => '69a5b88a451af804df487f684fc0cd49d00cb6681fe89b81d41bce2f9ebc536fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\">»’úLm^Å%¶ pjÆš¾µªÍëÑ$,LHt Î\";}'
+    'PHPSESSID' => 't5ep0fs88u7t05j1ftcurf7s92'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => '8ndyq'
+    '__captcha/site/captchacount' => 1
+    '__id' => 2
+    '__expire' => 1533668669
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1:8010'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://127.0.0.1:8010/pets/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,vi;q=0.8'
+    'HTTP_COOKIE' => '_csrf=69a5b88a451af804df487f684fc0cd49d00cb6681fe89b81d41bce2f9ebc536fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%3E%05%BB%92%FALm%5E%C5%07%25%B6%A0pj%C6%9A%BE%90%B5%AA%CD%EB%D1%24%11%2CLHt%A0%CE%22%3B%7D; PHPSESSID=t5ep0fs88u7t05j1ftcurf7s92'
+    'PATH' => 'G:\\ProgramData\\Oracle\\Java\\javapath;G:\\Windows\\system32;G:\\Windows;G:\\Windows\\System32\\Wbem;G:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;G:\\Program Files\\Intel\\WiFi\\bin\\;G:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;G:\\Program Files\\Git\\cmd;G:\\Program Files\\TortoiseSVN\\bin;G:\\Program Files\\nodejs\\;E:\\Duan\\reactnative\\platform-tools;G:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;G:\\Program Files\\dotnet\\;G:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;G:\\Program Files\\Intel\\WiFi\\bin\\;G:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;G:\\Users\\Nguyen Quoc Khanh\\AppData\\Local\\atom\\bin;G:\\Users\\Nguyen Quoc Khanh\\AppData\\Roaming\\npm;G:\\Users\\Nguyen Quoc Khanh\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'G:\\Windows'
+    'COMSPEC' => 'G:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'G:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19 Server at 127.0.0.1 Port 8010</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8010'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Duan/petshop/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Duan/petshop/backend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/Duan/petshop/backend/web/index.php'
+    'REMOTE_PORT' => '55189'
+    'REDIRECT_URL' => 'http://127.0.0.1:8010/plugins/ckeditor/ckeditor/ckeditor.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/plugins/ckeditor/ckeditor/ckeditor.js'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533661469.019
+    'REQUEST_TIME' => 1533661469
+]

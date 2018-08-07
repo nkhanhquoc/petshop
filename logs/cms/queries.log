@@ -1,0 +1,1473 @@
+2018-08-08 00:04:26 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `user` WHERE (`id`=2) AND (`status`=1)
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:26 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT * FROM `user` WHERE (`id`=2) AND (`status`=1)
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:26 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT * FROM `user` WHERE (`id`=2) AND (`status`=1)
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:26 [127.0.0.1][2][-][info][yii\db\Command::query] SHOW FULL COLUMNS FROM `user`
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:26 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SHOW FULL COLUMNS FROM `user`
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:26 [127.0.0.1][2][-][profile end][yii\db\Command::query] SHOW FULL COLUMNS FROM `user`
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:26 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:26 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:26 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:26 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `auth_assignment` WHERE `user_id`='2'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT * FROM `auth_assignment` WHERE `user_id`='2'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT * FROM `auth_assignment` WHERE `user_id`='2'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='/pets/view'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='/pets/view'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='/pets/view'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='/pets/view'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='/pets/view'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='/pets/view'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='User'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='User'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='User'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][-][info][yii\db\Command::query] SHOW FULL COLUMNS FROM `pets`
+    in E:\Duan\petshop\backend\controllers\PetsController.php:118
+    in E:\Duan\petshop\backend\controllers\PetsController.php:52
+2018-08-08 00:04:26 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SHOW FULL COLUMNS FROM `pets`
+    in E:\Duan\petshop\backend\controllers\PetsController.php:118
+    in E:\Duan\petshop\backend\controllers\PetsController.php:52
+2018-08-08 00:04:26 [127.0.0.1][2][-][profile end][yii\db\Command::query] SHOW FULL COLUMNS FROM `pets`
+    in E:\Duan\petshop\backend\controllers\PetsController.php:118
+    in E:\Duan\petshop\backend\controllers\PetsController.php:52
+2018-08-08 00:04:26 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'pets' AND kcu.table_name = 'pets'
+    in E:\Duan\petshop\backend\controllers\PetsController.php:118
+    in E:\Duan\petshop\backend\controllers\PetsController.php:52
+2018-08-08 00:04:26 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'pets' AND kcu.table_name = 'pets'
+    in E:\Duan\petshop\backend\controllers\PetsController.php:118
+    in E:\Duan\petshop\backend\controllers\PetsController.php:52
+2018-08-08 00:04:26 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'pets' AND kcu.table_name = 'pets'
+    in E:\Duan\petshop\backend\controllers\PetsController.php:118
+    in E:\Duan\petshop\backend\controllers\PetsController.php:52
+2018-08-08 00:04:26 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `pets` WHERE `id`='4'
+    in E:\Duan\petshop\backend\controllers\PetsController.php:118
+    in E:\Duan\petshop\backend\controllers\PetsController.php:52
+2018-08-08 00:04:26 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT * FROM `pets` WHERE `id`='4'
+    in E:\Duan\petshop\backend\controllers\PetsController.php:118
+    in E:\Duan\petshop\backend\controllers\PetsController.php:52
+2018-08-08 00:04:26 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT * FROM `pets` WHERE `id`='4'
+    in E:\Duan\petshop\backend\controllers\PetsController.php:118
+    in E:\Duan\petshop\backend\controllers\PetsController.php:52
+2018-08-08 00:04:26 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `menu`
+    in E:\Duan\petshop\backend\components\common\MenuHelper.php:73
+    in E:\Duan\petshop\backend\views\layouts\main.php:180
+    in E:\Duan\petshop\backend\controllers\PetsController.php:53
+2018-08-08 00:04:26 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT * FROM `menu`
+    in E:\Duan\petshop\backend\components\common\MenuHelper.php:73
+    in E:\Duan\petshop\backend\views\layouts\main.php:180
+    in E:\Duan\petshop\backend\controllers\PetsController.php:53
+2018-08-08 00:04:26 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT * FROM `menu`
+    in E:\Duan\petshop\backend\components\common\MenuHelper.php:73
+    in E:\Duan\petshop\backend\views\layouts\main.php:180
+    in E:\Duan\petshop\backend\controllers\PetsController.php:53
+2018-08-08 00:04:26 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT `b`.* FROM `auth_assignment` `a`, `auth_item` `b` WHERE (`a`.`item_name`=`b`.`name`) AND (`a`.`user_id`='2') AND (`b`.`type`=2)
+    in E:\Duan\petshop\backend\components\common\MenuHelper.php:80
+    in E:\Duan\petshop\backend\views\layouts\main.php:180
+    in E:\Duan\petshop\backend\controllers\PetsController.php:53
+2018-08-08 00:04:26 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT `b`.* FROM `auth_assignment` `a`, `auth_item` `b` WHERE (`a`.`item_name`=`b`.`name`) AND (`a`.`user_id`='2') AND (`b`.`type`=2)
+    in E:\Duan\petshop\backend\components\common\MenuHelper.php:80
+    in E:\Duan\petshop\backend\views\layouts\main.php:180
+    in E:\Duan\petshop\backend\controllers\PetsController.php:53
+2018-08-08 00:04:26 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT `b`.* FROM `auth_assignment` `a`, `auth_item` `b` WHERE (`a`.`item_name`=`b`.`name`) AND (`a`.`user_id`='2') AND (`b`.`type`=2)
+    in E:\Duan\petshop\backend\components\common\MenuHelper.php:80
+    in E:\Duan\petshop\backend\views\layouts\main.php:180
+    in E:\Duan\petshop\backend\controllers\PetsController.php:53
+2018-08-08 00:04:26 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `auth_item_child`
+    in E:\Duan\petshop\backend\components\common\MenuHelper.php:80
+    in E:\Duan\petshop\backend\views\layouts\main.php:180
+    in E:\Duan\petshop\backend\controllers\PetsController.php:53
+2018-08-08 00:04:26 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT * FROM `auth_item_child`
+    in E:\Duan\petshop\backend\components\common\MenuHelper.php:80
+    in E:\Duan\petshop\backend\views\layouts\main.php:180
+    in E:\Duan\petshop\backend\controllers\PetsController.php:53
+2018-08-08 00:04:26 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT * FROM `auth_item_child`
+    in E:\Duan\petshop\backend\components\common\MenuHelper.php:80
+    in E:\Duan\petshop\backend\views\layouts\main.php:180
+    in E:\Duan\petshop\backend\controllers\PetsController.php:53
+2018-08-08 00:04:26 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT `item_name` FROM `auth_assignment` WHERE `user_id`='2'
+    in E:\Duan\petshop\backend\components\common\MenuHelper.php:80
+    in E:\Duan\petshop\backend\views\layouts\main.php:180
+    in E:\Duan\petshop\backend\controllers\PetsController.php:53
+2018-08-08 00:04:26 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT `item_name` FROM `auth_assignment` WHERE `user_id`='2'
+    in E:\Duan\petshop\backend\components\common\MenuHelper.php:80
+    in E:\Duan\petshop\backend\views\layouts\main.php:180
+    in E:\Duan\petshop\backend\controllers\PetsController.php:53
+2018-08-08 00:04:26 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT `item_name` FROM `auth_assignment` WHERE `user_id`='2'
+    in E:\Duan\petshop\backend\components\common\MenuHelper.php:80
+    in E:\Duan\petshop\backend\views\layouts\main.php:180
+    in E:\Duan\petshop\backend\controllers\PetsController.php:53
+2018-08-08 00:04:26 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `auth_item` WHERE (`type`=2) AND (`name` IN ('/pets/*', '/pets/create', '/pets/delete', '/pets/index', '/pets/update', '/pets/view'))
+    in E:\Duan\petshop\backend\components\common\MenuHelper.php:80
+    in E:\Duan\petshop\backend\views\layouts\main.php:180
+    in E:\Duan\petshop\backend\controllers\PetsController.php:53
+2018-08-08 00:04:26 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT * FROM `auth_item` WHERE (`type`=2) AND (`name` IN ('/pets/*', '/pets/create', '/pets/delete', '/pets/index', '/pets/update', '/pets/view'))
+    in E:\Duan\petshop\backend\components\common\MenuHelper.php:80
+    in E:\Duan\petshop\backend\views\layouts\main.php:180
+    in E:\Duan\petshop\backend\controllers\PetsController.php:53
+2018-08-08 00:04:26 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT * FROM `auth_item` WHERE (`type`=2) AND (`name` IN ('/pets/*', '/pets/create', '/pets/delete', '/pets/index', '/pets/update', '/pets/view'))
+    in E:\Duan\petshop\backend\components\common\MenuHelper.php:80
+    in E:\Duan\petshop\backend\views\layouts\main.php:180
+    in E:\Duan\petshop\backend\controllers\PetsController.php:53
+2018-08-08 00:04:26 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT `id` FROM `menu` WHERE route like '/pets/%'
+    in E:\Duan\petshop\backend\components\common\MenuHelper.php:120
+    in E:\Duan\petshop\backend\views\layouts\main.php:180
+    in E:\Duan\petshop\backend\controllers\PetsController.php:53
+2018-08-08 00:04:26 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT `id` FROM `menu` WHERE route like '/pets/%'
+    in E:\Duan\petshop\backend\components\common\MenuHelper.php:120
+    in E:\Duan\petshop\backend\views\layouts\main.php:180
+    in E:\Duan\petshop\backend\controllers\PetsController.php:53
+2018-08-08 00:04:26 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT `id` FROM `menu` WHERE route like '/pets/%'
+    in E:\Duan\petshop\backend\components\common\MenuHelper.php:120
+    in E:\Duan\petshop\backend\views\layouts\main.php:180
+    in E:\Duan\petshop\backend\controllers\PetsController.php:53
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SELECT * FROM `user` WHERE (`id`=2) AND (`status`=1)
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SELECT * FROM `user` WHERE (`id`=2) AND (`status`=1)
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SELECT * FROM `user` WHERE (`id`=2) AND (`status`=1)
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SHOW FULL COLUMNS FROM `user`
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SHOW FULL COLUMNS FROM `user`
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SHOW FULL COLUMNS FROM `user`
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:26 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT `b`.* FROM `auth_assignment` `a`, `auth_item` `b` WHERE (`a`.`item_name`=`b`.`name`) AND (`a`.`user_id`='2') AND (`b`.`type`=1)
+2018-08-08 00:04:26 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT `b`.* FROM `auth_assignment` `a`, `auth_item` `b` WHERE (`a`.`item_name`=`b`.`name`) AND (`a`.`user_id`='2') AND (`b`.`type`=1)
+2018-08-08 00:04:26 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT `b`.* FROM `auth_assignment` `a`, `auth_item` `b` WHERE (`a`.`item_name`=`b`.`name`) AND (`a`.`user_id`='2') AND (`b`.`type`=1)
+2018-08-08 00:04:26 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT `b`.* FROM `auth_assignment` `a`, `auth_item` `b` WHERE (`a`.`item_name`=`b`.`name`) AND (`a`.`user_id`='2') AND (`b`.`type`=2)
+2018-08-08 00:04:26 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT `b`.* FROM `auth_assignment` `a`, `auth_item` `b` WHERE (`a`.`item_name`=`b`.`name`) AND (`a`.`user_id`='2') AND (`b`.`type`=2)
+2018-08-08 00:04:26 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT `b`.* FROM `auth_assignment` `a`, `auth_item` `b` WHERE (`a`.`item_name`=`b`.`name`) AND (`a`.`user_id`='2') AND (`b`.`type`=2)
+2018-08-08 00:04:26 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `auth_item_child`
+2018-08-08 00:04:26 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT * FROM `auth_item_child`
+2018-08-08 00:04:26 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT * FROM `auth_item_child`
+2018-08-08 00:04:26 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT `item_name` FROM `auth_assignment` WHERE `user_id`='2'
+2018-08-08 00:04:26 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT `item_name` FROM `auth_assignment` WHERE `user_id`='2'
+2018-08-08 00:04:26 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT `item_name` FROM `auth_assignment` WHERE `user_id`='2'
+2018-08-08 00:04:26 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `auth_item` WHERE (`type`=2) AND (`name` IN ('/pets/*', '/pets/create', '/pets/delete', '/pets/index', '/pets/update', '/pets/view'))
+2018-08-08 00:04:26 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT * FROM `auth_item` WHERE (`type`=2) AND (`name` IN ('/pets/*', '/pets/create', '/pets/delete', '/pets/index', '/pets/update', '/pets/view'))
+2018-08-08 00:04:26 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT * FROM `auth_item` WHERE (`type`=2) AND (`name` IN ('/pets/*', '/pets/create', '/pets/delete', '/pets/index', '/pets/update', '/pets/view'))
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SELECT * FROM `user` WHERE (`id`=2) AND (`status`=1)
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SELECT * FROM `user` WHERE (`id`=2) AND (`status`=1)
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SELECT * FROM `user` WHERE (`id`=2) AND (`status`=1)
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SHOW FULL COLUMNS FROM `user`
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SHOW FULL COLUMNS FROM `user`
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SHOW FULL COLUMNS FROM `user`
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SELECT * FROM `auth_assignment` WHERE `user_id`='2'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SELECT * FROM `auth_assignment` WHERE `user_id`='2'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SELECT * FROM `auth_assignment` WHERE `user_id`='2'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='/debug/default/toolbar'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='/debug/default/toolbar'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='/debug/default/toolbar'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='/debug/default/toolbar'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='/debug/default/toolbar'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='/debug/default/toolbar'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='admin'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='admin'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='admin'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='admin'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='admin'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='admin'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SELECT * FROM `auth_assignment` WHERE `user_id`='2'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SELECT * FROM `auth_assignment` WHERE `user_id`='2'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SELECT * FROM `auth_assignment` WHERE `user_id`='2'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='/debug/default/*'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='/debug/default/*'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='/debug/default/*'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='/debug/default/*'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='/debug/default/*'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='/debug/default/*'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='admin'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='admin'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='admin'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='admin'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='admin'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='admin'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SELECT * FROM `auth_assignment` WHERE `user_id`='2'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SELECT * FROM `auth_assignment` WHERE `user_id`='2'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SELECT * FROM `auth_assignment` WHERE `user_id`='2'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='/debug/*'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='/debug/*'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='/debug/*'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='/debug/*'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='/debug/*'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='/debug/*'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='admin'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='admin'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='admin'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='admin'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='admin'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='admin'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SELECT * FROM `auth_assignment` WHERE `user_id`='2'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:128
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SELECT * FROM `auth_assignment` WHERE `user_id`='2'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:128
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SELECT * FROM `auth_assignment` WHERE `user_id`='2'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:128
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='/*'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:128
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='/*'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:128
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='/*'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:128
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='/*'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:128
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='/*'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:128
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='/*'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:128
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='admin'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:128
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='admin'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:128
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='admin'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:128
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='admin'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:128
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='admin'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:128
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='admin'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:128
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:26 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT `b`.* FROM `auth_assignment` `a`, `auth_item` `b` WHERE (`a`.`item_name`=`b`.`name`) AND (`a`.`user_id`='2') AND (`b`.`type`=1)
+2018-08-08 00:04:26 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT `b`.* FROM `auth_assignment` `a`, `auth_item` `b` WHERE (`a`.`item_name`=`b`.`name`) AND (`a`.`user_id`='2') AND (`b`.`type`=1)
+2018-08-08 00:04:26 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT `b`.* FROM `auth_assignment` `a`, `auth_item` `b` WHERE (`a`.`item_name`=`b`.`name`) AND (`a`.`user_id`='2') AND (`b`.`type`=1)
+2018-08-08 00:04:26 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT `b`.* FROM `auth_assignment` `a`, `auth_item` `b` WHERE (`a`.`item_name`=`b`.`name`) AND (`a`.`user_id`='2') AND (`b`.`type`=2)
+2018-08-08 00:04:26 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT `b`.* FROM `auth_assignment` `a`, `auth_item` `b` WHERE (`a`.`item_name`=`b`.`name`) AND (`a`.`user_id`='2') AND (`b`.`type`=2)
+2018-08-08 00:04:26 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT `b`.* FROM `auth_assignment` `a`, `auth_item` `b` WHERE (`a`.`item_name`=`b`.`name`) AND (`a`.`user_id`='2') AND (`b`.`type`=2)
+2018-08-08 00:04:26 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `auth_item_child`
+2018-08-08 00:04:26 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT * FROM `auth_item_child`
+2018-08-08 00:04:26 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT * FROM `auth_item_child`
+2018-08-08 00:04:26 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT `item_name` FROM `auth_assignment` WHERE `user_id`='2'
+2018-08-08 00:04:26 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT `item_name` FROM `auth_assignment` WHERE `user_id`='2'
+2018-08-08 00:04:26 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT `item_name` FROM `auth_assignment` WHERE `user_id`='2'
+2018-08-08 00:04:26 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `auth_item` WHERE (`type`=2) AND (`name` IN ('/pets/*', '/pets/create', '/pets/delete', '/pets/index', '/pets/update', '/pets/view'))
+2018-08-08 00:04:26 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT * FROM `auth_item` WHERE (`type`=2) AND (`name` IN ('/pets/*', '/pets/create', '/pets/delete', '/pets/index', '/pets/update', '/pets/view'))
+2018-08-08 00:04:26 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT * FROM `auth_item` WHERE (`type`=2) AND (`name` IN ('/pets/*', '/pets/create', '/pets/delete', '/pets/index', '/pets/update', '/pets/view'))
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SELECT * FROM `user` WHERE (`id`=2) AND (`status`=1)
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SELECT * FROM `user` WHERE (`id`=2) AND (`status`=1)
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:26 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SELECT * FROM `user` WHERE (`id`=2) AND (`status`=1)
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:27 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SHOW FULL COLUMNS FROM `user`
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:27 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SHOW FULL COLUMNS FROM `user`
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:27 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SHOW FULL COLUMNS FROM `user`
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:27 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:27 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:27 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:27 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT `b`.* FROM `auth_assignment` `a`, `auth_item` `b` WHERE (`a`.`item_name`=`b`.`name`) AND (`a`.`user_id`='2') AND (`b`.`type`=1)
+2018-08-08 00:04:27 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT `b`.* FROM `auth_assignment` `a`, `auth_item` `b` WHERE (`a`.`item_name`=`b`.`name`) AND (`a`.`user_id`='2') AND (`b`.`type`=1)
+2018-08-08 00:04:27 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT `b`.* FROM `auth_assignment` `a`, `auth_item` `b` WHERE (`a`.`item_name`=`b`.`name`) AND (`a`.`user_id`='2') AND (`b`.`type`=1)
+2018-08-08 00:04:27 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT `b`.* FROM `auth_assignment` `a`, `auth_item` `b` WHERE (`a`.`item_name`=`b`.`name`) AND (`a`.`user_id`='2') AND (`b`.`type`=2)
+2018-08-08 00:04:27 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT `b`.* FROM `auth_assignment` `a`, `auth_item` `b` WHERE (`a`.`item_name`=`b`.`name`) AND (`a`.`user_id`='2') AND (`b`.`type`=2)
+2018-08-08 00:04:27 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT `b`.* FROM `auth_assignment` `a`, `auth_item` `b` WHERE (`a`.`item_name`=`b`.`name`) AND (`a`.`user_id`='2') AND (`b`.`type`=2)
+2018-08-08 00:04:27 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `auth_item_child`
+2018-08-08 00:04:27 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT * FROM `auth_item_child`
+2018-08-08 00:04:27 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT * FROM `auth_item_child`
+2018-08-08 00:04:27 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT `item_name` FROM `auth_assignment` WHERE `user_id`='2'
+2018-08-08 00:04:27 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT `item_name` FROM `auth_assignment` WHERE `user_id`='2'
+2018-08-08 00:04:27 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT `item_name` FROM `auth_assignment` WHERE `user_id`='2'
+2018-08-08 00:04:27 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `auth_item` WHERE (`type`=2) AND (`name` IN ('/pets/*', '/pets/create', '/pets/delete', '/pets/index', '/pets/update', '/pets/view'))
+2018-08-08 00:04:27 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT * FROM `auth_item` WHERE (`type`=2) AND (`name` IN ('/pets/*', '/pets/create', '/pets/delete', '/pets/index', '/pets/update', '/pets/view'))
+2018-08-08 00:04:27 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT * FROM `auth_item` WHERE (`type`=2) AND (`name` IN ('/pets/*', '/pets/create', '/pets/delete', '/pets/index', '/pets/update', '/pets/view'))
+2018-08-08 00:04:28 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `user` WHERE (`id`=2) AND (`status`=1)
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT * FROM `user` WHERE (`id`=2) AND (`status`=1)
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT * FROM `user` WHERE (`id`=2) AND (`status`=1)
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:28 [127.0.0.1][2][-][info][yii\db\Command::query] SHOW FULL COLUMNS FROM `user`
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SHOW FULL COLUMNS FROM `user`
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile end][yii\db\Command::query] SHOW FULL COLUMNS FROM `user`
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:28 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:28 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `auth_assignment` WHERE `user_id`='2'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT * FROM `auth_assignment` WHERE `user_id`='2'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT * FROM `auth_assignment` WHERE `user_id`='2'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='/pets/index'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='/pets/index'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='/pets/index'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='/pets/index'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='/pets/index'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='/pets/index'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='User'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='User'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='User'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][-][info][yii\db\Command::query] SHOW FULL COLUMNS FROM `pets`
+    in E:\Duan\petshop\backend\models\PetSearch.php:49
+    in E:\Duan\petshop\backend\controllers\PetsController.php:36
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SHOW FULL COLUMNS FROM `pets`
+    in E:\Duan\petshop\backend\models\PetSearch.php:49
+    in E:\Duan\petshop\backend\controllers\PetsController.php:36
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile end][yii\db\Command::query] SHOW FULL COLUMNS FROM `pets`
+    in E:\Duan\petshop\backend\models\PetSearch.php:49
+    in E:\Duan\petshop\backend\controllers\PetsController.php:36
+2018-08-08 00:04:28 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'pets' AND kcu.table_name = 'pets'
+    in E:\Duan\petshop\backend\models\PetSearch.php:49
+    in E:\Duan\petshop\backend\controllers\PetsController.php:36
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'pets' AND kcu.table_name = 'pets'
+    in E:\Duan\petshop\backend\models\PetSearch.php:49
+    in E:\Duan\petshop\backend\controllers\PetsController.php:36
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'pets' AND kcu.table_name = 'pets'
+    in E:\Duan\petshop\backend\models\PetSearch.php:49
+    in E:\Duan\petshop\backend\controllers\PetsController.php:36
+2018-08-08 00:04:28 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `pettype`
+    in E:\Duan\petshop\backend\models\Pets.php:46
+    in E:\Duan\petshop\backend\views\pets\_search.php:22
+    in E:\Duan\petshop\backend\views\pets\index.php:21
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT * FROM `pettype`
+    in E:\Duan\petshop\backend\models\Pets.php:46
+    in E:\Duan\petshop\backend\views\pets\_search.php:22
+    in E:\Duan\petshop\backend\views\pets\index.php:21
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT * FROM `pettype`
+    in E:\Duan\petshop\backend\models\Pets.php:46
+    in E:\Duan\petshop\backend\views\pets\_search.php:22
+    in E:\Duan\petshop\backend\views\pets\index.php:21
+2018-08-08 00:04:28 [127.0.0.1][2][-][info][yii\db\Command::query] SHOW FULL COLUMNS FROM `pettype`
+    in E:\Duan\petshop\backend\models\Pets.php:46
+    in E:\Duan\petshop\backend\views\pets\_search.php:22
+    in E:\Duan\petshop\backend\views\pets\index.php:21
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SHOW FULL COLUMNS FROM `pettype`
+    in E:\Duan\petshop\backend\models\Pets.php:46
+    in E:\Duan\petshop\backend\views\pets\_search.php:22
+    in E:\Duan\petshop\backend\views\pets\index.php:21
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile end][yii\db\Command::query] SHOW FULL COLUMNS FROM `pettype`
+    in E:\Duan\petshop\backend\models\Pets.php:46
+    in E:\Duan\petshop\backend\views\pets\_search.php:22
+    in E:\Duan\petshop\backend\views\pets\index.php:21
+2018-08-08 00:04:28 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'pettype' AND kcu.table_name = 'pettype'
+    in E:\Duan\petshop\backend\models\Pets.php:46
+    in E:\Duan\petshop\backend\views\pets\_search.php:22
+    in E:\Duan\petshop\backend\views\pets\index.php:21
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'pettype' AND kcu.table_name = 'pettype'
+    in E:\Duan\petshop\backend\models\Pets.php:46
+    in E:\Duan\petshop\backend\views\pets\_search.php:22
+    in E:\Duan\petshop\backend\views\pets\index.php:21
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'pettype' AND kcu.table_name = 'pettype'
+    in E:\Duan\petshop\backend\models\Pets.php:46
+    in E:\Duan\petshop\backend\views\pets\_search.php:22
+    in E:\Duan\petshop\backend\views\pets\index.php:21
+2018-08-08 00:04:28 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT COUNT(*) FROM `pets`
+    in E:\Duan\petshop\awesome\backend\grid\AwsBaseListView.php:167
+    in E:\Duan\petshop\awesome\backend\grid\AwsGridView.php:359
+    in E:\Duan\petshop\backend\views\pets\index.php:80
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT COUNT(*) FROM `pets`
+    in E:\Duan\petshop\awesome\backend\grid\AwsBaseListView.php:167
+    in E:\Duan\petshop\awesome\backend\grid\AwsGridView.php:359
+    in E:\Duan\petshop\backend\views\pets\index.php:80
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT COUNT(*) FROM `pets`
+    in E:\Duan\petshop\awesome\backend\grid\AwsBaseListView.php:167
+    in E:\Duan\petshop\awesome\backend\grid\AwsGridView.php:359
+    in E:\Duan\petshop\backend\views\pets\index.php:80
+2018-08-08 00:04:28 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `pets` ORDER BY `id` DESC LIMIT 20
+    in E:\Duan\petshop\awesome\backend\grid\AwsBaseListView.php:167
+    in E:\Duan\petshop\awesome\backend\grid\AwsGridView.php:359
+    in E:\Duan\petshop\backend\views\pets\index.php:80
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT * FROM `pets` ORDER BY `id` DESC LIMIT 20
+    in E:\Duan\petshop\awesome\backend\grid\AwsBaseListView.php:167
+    in E:\Duan\petshop\awesome\backend\grid\AwsGridView.php:359
+    in E:\Duan\petshop\backend\views\pets\index.php:80
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT * FROM `pets` ORDER BY `id` DESC LIMIT 20
+    in E:\Duan\petshop\awesome\backend\grid\AwsBaseListView.php:167
+    in E:\Duan\petshop\awesome\backend\grid\AwsGridView.php:359
+    in E:\Duan\petshop\backend\views\pets\index.php:80
+2018-08-08 00:04:28 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `pettype` WHERE `id`='3'
+    in E:\Duan\petshop\backend\views\pets\index.php:52
+    in E:\Duan\petshop\awesome\backend\grid\AwsColumn.php:182
+    in E:\Duan\petshop\awesome\backend\grid\AwsDataColumn.php:254
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT * FROM `pettype` WHERE `id`='3'
+    in E:\Duan\petshop\backend\views\pets\index.php:52
+    in E:\Duan\petshop\awesome\backend\grid\AwsColumn.php:182
+    in E:\Duan\petshop\awesome\backend\grid\AwsDataColumn.php:254
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT * FROM `pettype` WHERE `id`='3'
+    in E:\Duan\petshop\backend\views\pets\index.php:52
+    in E:\Duan\petshop\awesome\backend\grid\AwsColumn.php:182
+    in E:\Duan\petshop\awesome\backend\grid\AwsDataColumn.php:254
+2018-08-08 00:04:28 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `user` WHERE `id`='2'
+    in E:\Duan\petshop\backend\models\Pets.php:57
+    in E:\Duan\petshop\backend\views\pets\index.php:64
+    in E:\Duan\petshop\awesome\backend\grid\AwsColumn.php:182
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT * FROM `user` WHERE `id`='2'
+    in E:\Duan\petshop\backend\models\Pets.php:57
+    in E:\Duan\petshop\backend\views\pets\index.php:64
+    in E:\Duan\petshop\awesome\backend\grid\AwsColumn.php:182
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT * FROM `user` WHERE `id`='2'
+    in E:\Duan\petshop\backend\models\Pets.php:57
+    in E:\Duan\petshop\backend\views\pets\index.php:64
+    in E:\Duan\petshop\awesome\backend\grid\AwsColumn.php:182
+2018-08-08 00:04:28 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `pettype` WHERE `id`='2'
+    in E:\Duan\petshop\backend\views\pets\index.php:52
+    in E:\Duan\petshop\awesome\backend\grid\AwsColumn.php:182
+    in E:\Duan\petshop\awesome\backend\grid\AwsDataColumn.php:254
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT * FROM `pettype` WHERE `id`='2'
+    in E:\Duan\petshop\backend\views\pets\index.php:52
+    in E:\Duan\petshop\awesome\backend\grid\AwsColumn.php:182
+    in E:\Duan\petshop\awesome\backend\grid\AwsDataColumn.php:254
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT * FROM `pettype` WHERE `id`='2'
+    in E:\Duan\petshop\backend\views\pets\index.php:52
+    in E:\Duan\petshop\awesome\backend\grid\AwsColumn.php:182
+    in E:\Duan\petshop\awesome\backend\grid\AwsDataColumn.php:254
+2018-08-08 00:04:28 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `user` WHERE `id`='3'
+    in E:\Duan\petshop\backend\models\Pets.php:57
+    in E:\Duan\petshop\backend\views\pets\index.php:64
+    in E:\Duan\petshop\awesome\backend\grid\AwsColumn.php:182
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT * FROM `user` WHERE `id`='3'
+    in E:\Duan\petshop\backend\models\Pets.php:57
+    in E:\Duan\petshop\backend\views\pets\index.php:64
+    in E:\Duan\petshop\awesome\backend\grid\AwsColumn.php:182
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT * FROM `user` WHERE `id`='3'
+    in E:\Duan\petshop\backend\models\Pets.php:57
+    in E:\Duan\petshop\backend\views\pets\index.php:64
+    in E:\Duan\petshop\awesome\backend\grid\AwsColumn.php:182
+2018-08-08 00:04:28 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `pettype` WHERE `id`='3'
+    in E:\Duan\petshop\backend\views\pets\index.php:52
+    in E:\Duan\petshop\awesome\backend\grid\AwsColumn.php:182
+    in E:\Duan\petshop\awesome\backend\grid\AwsDataColumn.php:254
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT * FROM `pettype` WHERE `id`='3'
+    in E:\Duan\petshop\backend\views\pets\index.php:52
+    in E:\Duan\petshop\awesome\backend\grid\AwsColumn.php:182
+    in E:\Duan\petshop\awesome\backend\grid\AwsDataColumn.php:254
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT * FROM `pettype` WHERE `id`='3'
+    in E:\Duan\petshop\backend\views\pets\index.php:52
+    in E:\Duan\petshop\awesome\backend\grid\AwsColumn.php:182
+    in E:\Duan\petshop\awesome\backend\grid\AwsDataColumn.php:254
+2018-08-08 00:04:28 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `user` WHERE `id`='1'
+    in E:\Duan\petshop\backend\models\Pets.php:57
+    in E:\Duan\petshop\backend\views\pets\index.php:64
+    in E:\Duan\petshop\awesome\backend\grid\AwsColumn.php:182
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT * FROM `user` WHERE `id`='1'
+    in E:\Duan\petshop\backend\models\Pets.php:57
+    in E:\Duan\petshop\backend\views\pets\index.php:64
+    in E:\Duan\petshop\awesome\backend\grid\AwsColumn.php:182
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT * FROM `user` WHERE `id`='1'
+    in E:\Duan\petshop\backend\models\Pets.php:57
+    in E:\Duan\petshop\backend\views\pets\index.php:64
+    in E:\Duan\petshop\awesome\backend\grid\AwsColumn.php:182
+2018-08-08 00:04:28 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `pettype` WHERE `id`='2'
+    in E:\Duan\petshop\backend\views\pets\index.php:52
+    in E:\Duan\petshop\awesome\backend\grid\AwsColumn.php:182
+    in E:\Duan\petshop\awesome\backend\grid\AwsDataColumn.php:254
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT * FROM `pettype` WHERE `id`='2'
+    in E:\Duan\petshop\backend\views\pets\index.php:52
+    in E:\Duan\petshop\awesome\backend\grid\AwsColumn.php:182
+    in E:\Duan\petshop\awesome\backend\grid\AwsDataColumn.php:254
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT * FROM `pettype` WHERE `id`='2'
+    in E:\Duan\petshop\backend\views\pets\index.php:52
+    in E:\Duan\petshop\awesome\backend\grid\AwsColumn.php:182
+    in E:\Duan\petshop\awesome\backend\grid\AwsDataColumn.php:254
+2018-08-08 00:04:28 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `user` WHERE `id`='1'
+    in E:\Duan\petshop\backend\models\Pets.php:57
+    in E:\Duan\petshop\backend\views\pets\index.php:64
+    in E:\Duan\petshop\awesome\backend\grid\AwsColumn.php:182
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT * FROM `user` WHERE `id`='1'
+    in E:\Duan\petshop\backend\models\Pets.php:57
+    in E:\Duan\petshop\backend\views\pets\index.php:64
+    in E:\Duan\petshop\awesome\backend\grid\AwsColumn.php:182
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT * FROM `user` WHERE `id`='1'
+    in E:\Duan\petshop\backend\models\Pets.php:57
+    in E:\Duan\petshop\backend\views\pets\index.php:64
+    in E:\Duan\petshop\awesome\backend\grid\AwsColumn.php:182
+2018-08-08 00:04:28 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `menu`
+    in E:\Duan\petshop\backend\components\common\MenuHelper.php:73
+    in E:\Duan\petshop\backend\views\layouts\main.php:180
+    in E:\Duan\petshop\backend\controllers\PetsController.php:41
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT * FROM `menu`
+    in E:\Duan\petshop\backend\components\common\MenuHelper.php:73
+    in E:\Duan\petshop\backend\views\layouts\main.php:180
+    in E:\Duan\petshop\backend\controllers\PetsController.php:41
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT * FROM `menu`
+    in E:\Duan\petshop\backend\components\common\MenuHelper.php:73
+    in E:\Duan\petshop\backend\views\layouts\main.php:180
+    in E:\Duan\petshop\backend\controllers\PetsController.php:41
+2018-08-08 00:04:28 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT `b`.* FROM `auth_assignment` `a`, `auth_item` `b` WHERE (`a`.`item_name`=`b`.`name`) AND (`a`.`user_id`='2') AND (`b`.`type`=2)
+    in E:\Duan\petshop\backend\components\common\MenuHelper.php:80
+    in E:\Duan\petshop\backend\views\layouts\main.php:180
+    in E:\Duan\petshop\backend\controllers\PetsController.php:41
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT `b`.* FROM `auth_assignment` `a`, `auth_item` `b` WHERE (`a`.`item_name`=`b`.`name`) AND (`a`.`user_id`='2') AND (`b`.`type`=2)
+    in E:\Duan\petshop\backend\components\common\MenuHelper.php:80
+    in E:\Duan\petshop\backend\views\layouts\main.php:180
+    in E:\Duan\petshop\backend\controllers\PetsController.php:41
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT `b`.* FROM `auth_assignment` `a`, `auth_item` `b` WHERE (`a`.`item_name`=`b`.`name`) AND (`a`.`user_id`='2') AND (`b`.`type`=2)
+    in E:\Duan\petshop\backend\components\common\MenuHelper.php:80
+    in E:\Duan\petshop\backend\views\layouts\main.php:180
+    in E:\Duan\petshop\backend\controllers\PetsController.php:41
+2018-08-08 00:04:28 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `auth_item_child`
+    in E:\Duan\petshop\backend\components\common\MenuHelper.php:80
+    in E:\Duan\petshop\backend\views\layouts\main.php:180
+    in E:\Duan\petshop\backend\controllers\PetsController.php:41
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT * FROM `auth_item_child`
+    in E:\Duan\petshop\backend\components\common\MenuHelper.php:80
+    in E:\Duan\petshop\backend\views\layouts\main.php:180
+    in E:\Duan\petshop\backend\controllers\PetsController.php:41
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT * FROM `auth_item_child`
+    in E:\Duan\petshop\backend\components\common\MenuHelper.php:80
+    in E:\Duan\petshop\backend\views\layouts\main.php:180
+    in E:\Duan\petshop\backend\controllers\PetsController.php:41
+2018-08-08 00:04:28 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT `item_name` FROM `auth_assignment` WHERE `user_id`='2'
+    in E:\Duan\petshop\backend\components\common\MenuHelper.php:80
+    in E:\Duan\petshop\backend\views\layouts\main.php:180
+    in E:\Duan\petshop\backend\controllers\PetsController.php:41
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT `item_name` FROM `auth_assignment` WHERE `user_id`='2'
+    in E:\Duan\petshop\backend\components\common\MenuHelper.php:80
+    in E:\Duan\petshop\backend\views\layouts\main.php:180
+    in E:\Duan\petshop\backend\controllers\PetsController.php:41
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT `item_name` FROM `auth_assignment` WHERE `user_id`='2'
+    in E:\Duan\petshop\backend\components\common\MenuHelper.php:80
+    in E:\Duan\petshop\backend\views\layouts\main.php:180
+    in E:\Duan\petshop\backend\controllers\PetsController.php:41
+2018-08-08 00:04:28 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `auth_item` WHERE (`type`=2) AND (`name` IN ('/pets/*', '/pets/create', '/pets/delete', '/pets/index', '/pets/update', '/pets/view'))
+    in E:\Duan\petshop\backend\components\common\MenuHelper.php:80
+    in E:\Duan\petshop\backend\views\layouts\main.php:180
+    in E:\Duan\petshop\backend\controllers\PetsController.php:41
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT * FROM `auth_item` WHERE (`type`=2) AND (`name` IN ('/pets/*', '/pets/create', '/pets/delete', '/pets/index', '/pets/update', '/pets/view'))
+    in E:\Duan\petshop\backend\components\common\MenuHelper.php:80
+    in E:\Duan\petshop\backend\views\layouts\main.php:180
+    in E:\Duan\petshop\backend\controllers\PetsController.php:41
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT * FROM `auth_item` WHERE (`type`=2) AND (`name` IN ('/pets/*', '/pets/create', '/pets/delete', '/pets/index', '/pets/update', '/pets/view'))
+    in E:\Duan\petshop\backend\components\common\MenuHelper.php:80
+    in E:\Duan\petshop\backend\views\layouts\main.php:180
+    in E:\Duan\petshop\backend\controllers\PetsController.php:41
+2018-08-08 00:04:28 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT `id` FROM `menu` WHERE route like '/pets/%'
+    in E:\Duan\petshop\backend\components\common\MenuHelper.php:120
+    in E:\Duan\petshop\backend\views\layouts\main.php:180
+    in E:\Duan\petshop\backend\controllers\PetsController.php:41
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT `id` FROM `menu` WHERE route like '/pets/%'
+    in E:\Duan\petshop\backend\components\common\MenuHelper.php:120
+    in E:\Duan\petshop\backend\views\layouts\main.php:180
+    in E:\Duan\petshop\backend\controllers\PetsController.php:41
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT `id` FROM `menu` WHERE route like '/pets/%'
+    in E:\Duan\petshop\backend\components\common\MenuHelper.php:120
+    in E:\Duan\petshop\backend\views\layouts\main.php:180
+    in E:\Duan\petshop\backend\controllers\PetsController.php:41
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SELECT * FROM `user` WHERE (`id`=2) AND (`status`=1)
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SELECT * FROM `user` WHERE (`id`=2) AND (`status`=1)
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SELECT * FROM `user` WHERE (`id`=2) AND (`status`=1)
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SHOW FULL COLUMNS FROM `user`
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SHOW FULL COLUMNS FROM `user`
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SHOW FULL COLUMNS FROM `user`
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:28 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT `b`.* FROM `auth_assignment` `a`, `auth_item` `b` WHERE (`a`.`item_name`=`b`.`name`) AND (`a`.`user_id`='2') AND (`b`.`type`=1)
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT `b`.* FROM `auth_assignment` `a`, `auth_item` `b` WHERE (`a`.`item_name`=`b`.`name`) AND (`a`.`user_id`='2') AND (`b`.`type`=1)
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT `b`.* FROM `auth_assignment` `a`, `auth_item` `b` WHERE (`a`.`item_name`=`b`.`name`) AND (`a`.`user_id`='2') AND (`b`.`type`=1)
+2018-08-08 00:04:28 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT `b`.* FROM `auth_assignment` `a`, `auth_item` `b` WHERE (`a`.`item_name`=`b`.`name`) AND (`a`.`user_id`='2') AND (`b`.`type`=2)
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT `b`.* FROM `auth_assignment` `a`, `auth_item` `b` WHERE (`a`.`item_name`=`b`.`name`) AND (`a`.`user_id`='2') AND (`b`.`type`=2)
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT `b`.* FROM `auth_assignment` `a`, `auth_item` `b` WHERE (`a`.`item_name`=`b`.`name`) AND (`a`.`user_id`='2') AND (`b`.`type`=2)
+2018-08-08 00:04:28 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `auth_item_child`
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT * FROM `auth_item_child`
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT * FROM `auth_item_child`
+2018-08-08 00:04:28 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT `item_name` FROM `auth_assignment` WHERE `user_id`='2'
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT `item_name` FROM `auth_assignment` WHERE `user_id`='2'
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT `item_name` FROM `auth_assignment` WHERE `user_id`='2'
+2018-08-08 00:04:28 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `auth_item` WHERE (`type`=2) AND (`name` IN ('/pets/*', '/pets/create', '/pets/delete', '/pets/index', '/pets/update', '/pets/view'))
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT * FROM `auth_item` WHERE (`type`=2) AND (`name` IN ('/pets/*', '/pets/create', '/pets/delete', '/pets/index', '/pets/update', '/pets/view'))
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT * FROM `auth_item` WHERE (`type`=2) AND (`name` IN ('/pets/*', '/pets/create', '/pets/delete', '/pets/index', '/pets/update', '/pets/view'))
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SELECT * FROM `user` WHERE (`id`=2) AND (`status`=1)
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SELECT * FROM `user` WHERE (`id`=2) AND (`status`=1)
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SELECT * FROM `user` WHERE (`id`=2) AND (`status`=1)
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SHOW FULL COLUMNS FROM `user`
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SHOW FULL COLUMNS FROM `user`
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SHOW FULL COLUMNS FROM `user`
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SELECT * FROM `auth_assignment` WHERE `user_id`='2'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SELECT * FROM `auth_assignment` WHERE `user_id`='2'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SELECT * FROM `auth_assignment` WHERE `user_id`='2'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='/debug/default/toolbar'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='/debug/default/toolbar'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='/debug/default/toolbar'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='/debug/default/toolbar'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='/debug/default/toolbar'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='/debug/default/toolbar'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='admin'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='admin'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='admin'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='admin'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='admin'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='admin'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SELECT * FROM `auth_assignment` WHERE `user_id`='2'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SELECT * FROM `auth_assignment` WHERE `user_id`='2'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SELECT * FROM `auth_assignment` WHERE `user_id`='2'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='/debug/default/*'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='/debug/default/*'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='/debug/default/*'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='/debug/default/*'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='/debug/default/*'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='/debug/default/*'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='admin'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='admin'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='admin'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='admin'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='admin'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='admin'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SELECT * FROM `auth_assignment` WHERE `user_id`='2'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SELECT * FROM `auth_assignment` WHERE `user_id`='2'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SELECT * FROM `auth_assignment` WHERE `user_id`='2'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='/debug/*'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='/debug/*'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='/debug/*'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='/debug/*'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='/debug/*'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='/debug/*'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='admin'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='admin'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='admin'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='admin'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='admin'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='admin'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:124
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SELECT * FROM `auth_assignment` WHERE `user_id`='2'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:128
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SELECT * FROM `auth_assignment` WHERE `user_id`='2'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:128
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SELECT * FROM `auth_assignment` WHERE `user_id`='2'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:128
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='/*'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:128
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='/*'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:128
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='/*'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:128
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='/*'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:128
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='/*'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:128
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='/*'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:128
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='admin'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:128
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='admin'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:128
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='admin'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:128
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='admin'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:128
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='admin'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:128
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='admin'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:128
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 00:04:28 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT `b`.* FROM `auth_assignment` `a`, `auth_item` `b` WHERE (`a`.`item_name`=`b`.`name`) AND (`a`.`user_id`='2') AND (`b`.`type`=1)
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT `b`.* FROM `auth_assignment` `a`, `auth_item` `b` WHERE (`a`.`item_name`=`b`.`name`) AND (`a`.`user_id`='2') AND (`b`.`type`=1)
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT `b`.* FROM `auth_assignment` `a`, `auth_item` `b` WHERE (`a`.`item_name`=`b`.`name`) AND (`a`.`user_id`='2') AND (`b`.`type`=1)
+2018-08-08 00:04:28 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT `b`.* FROM `auth_assignment` `a`, `auth_item` `b` WHERE (`a`.`item_name`=`b`.`name`) AND (`a`.`user_id`='2') AND (`b`.`type`=2)
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT `b`.* FROM `auth_assignment` `a`, `auth_item` `b` WHERE (`a`.`item_name`=`b`.`name`) AND (`a`.`user_id`='2') AND (`b`.`type`=2)
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT `b`.* FROM `auth_assignment` `a`, `auth_item` `b` WHERE (`a`.`item_name`=`b`.`name`) AND (`a`.`user_id`='2') AND (`b`.`type`=2)
+2018-08-08 00:04:28 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `auth_item_child`
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT * FROM `auth_item_child`
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT * FROM `auth_item_child`
+2018-08-08 00:04:28 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT `item_name` FROM `auth_assignment` WHERE `user_id`='2'
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT `item_name` FROM `auth_assignment` WHERE `user_id`='2'
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT `item_name` FROM `auth_assignment` WHERE `user_id`='2'
+2018-08-08 00:04:28 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `auth_item` WHERE (`type`=2) AND (`name` IN ('/pets/*', '/pets/create', '/pets/delete', '/pets/index', '/pets/update', '/pets/view'))
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT * FROM `auth_item` WHERE (`type`=2) AND (`name` IN ('/pets/*', '/pets/create', '/pets/delete', '/pets/index', '/pets/update', '/pets/view'))
+2018-08-08 00:04:28 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT * FROM `auth_item` WHERE (`type`=2) AND (`name` IN ('/pets/*', '/pets/create', '/pets/delete', '/pets/index', '/pets/update', '/pets/view'))
+2018-08-08 00:04:29 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SELECT * FROM `user` WHERE (`id`=2) AND (`status`=1)
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:29 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SELECT * FROM `user` WHERE (`id`=2) AND (`status`=1)
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:29 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SELECT * FROM `user` WHERE (`id`=2) AND (`status`=1)
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:29 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SHOW FULL COLUMNS FROM `user`
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:29 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SHOW FULL COLUMNS FROM `user`
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:29 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SHOW FULL COLUMNS FROM `user`
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:29 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][info][yii\db\Command::query] SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:29 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile begin][yii\db\Command::query] SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:29 [127.0.0.1][2][t5ep0fs88u7t05j1ftcurf7s92][profile end][yii\db\Command::query] SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'
+    in E:\Duan\petshop\backend\models\User.php:86
+2018-08-08 00:04:29 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT `b`.* FROM `auth_assignment` `a`, `auth_item` `b` WHERE (`a`.`item_name`=`b`.`name`) AND (`a`.`user_id`='2') AND (`b`.`type`=1)
+2018-08-08 00:04:29 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT `b`.* FROM `auth_assignment` `a`, `auth_item` `b` WHERE (`a`.`item_name`=`b`.`name`) AND (`a`.`user_id`='2') AND (`b`.`type`=1)
+2018-08-08 00:04:29 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT `b`.* FROM `auth_assignment` `a`, `auth_item` `b` WHERE (`a`.`item_name`=`b`.`name`) AND (`a`.`user_id`='2') AND (`b`.`type`=1)
+2018-08-08 00:04:29 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT `b`.* FROM `auth_assignment` `a`, `auth_item` `b` WHERE (`a`.`item_name`=`b`.`name`) AND (`a`.`user_id`='2') AND (`b`.`type`=2)
+2018-08-08 00:04:29 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT `b`.* FROM `auth_assignment` `a`, `auth_item` `b` WHERE (`a`.`item_name`=`b`.`name`) AND (`a`.`user_id`='2') AND (`b`.`type`=2)
+2018-08-08 00:04:29 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT `b`.* FROM `auth_assignment` `a`, `auth_item` `b` WHERE (`a`.`item_name`=`b`.`name`) AND (`a`.`user_id`='2') AND (`b`.`type`=2)
+2018-08-08 00:04:29 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `auth_item_child`
+2018-08-08 00:04:29 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT * FROM `auth_item_child`
+2018-08-08 00:04:29 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT * FROM `auth_item_child`
+2018-08-08 00:04:29 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT `item_name` FROM `auth_assignment` WHERE `user_id`='2'
+2018-08-08 00:04:29 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT `item_name` FROM `auth_assignment` WHERE `user_id`='2'
+2018-08-08 00:04:29 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT `item_name` FROM `auth_assignment` WHERE `user_id`='2'
+2018-08-08 00:04:29 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `auth_item` WHERE (`type`=2) AND (`name` IN ('/pets/*', '/pets/create', '/pets/delete', '/pets/index', '/pets/update', '/pets/view'))
+2018-08-08 00:04:29 [127.0.0.1][2][-][profile begin][yii\db\Command::query] SELECT * FROM `auth_item` WHERE (`type`=2) AND (`name` IN ('/pets/*', '/pets/create', '/pets/delete', '/pets/index', '/pets/update', '/pets/view'))
+2018-08-08 00:04:29 [127.0.0.1][2][-][profile end][yii\db\Command::query] SELECT * FROM `auth_item` WHERE (`type`=2) AND (`name` IN ('/pets/*', '/pets/create', '/pets/delete', '/pets/index', '/pets/update', '/pets/view'))
