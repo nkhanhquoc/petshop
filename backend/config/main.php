@@ -4,10 +4,7 @@ $params = array_merge(
     require(__DIR__ . '/../../common/config/params.php'),
     require(__DIR__ . '/../../common/config/params-local.php'),
     require(__DIR__ . '/params.php'),
-    require(__DIR__ . '/meta_country.php'),
     require(__DIR__ . '/meta_language.php'),
-    require(__DIR__ . '/meta_year.php'),
-    require(__DIR__ . '/meta_content_filter.php'),
     require(__DIR__ . '/params-local.php')
 );
 

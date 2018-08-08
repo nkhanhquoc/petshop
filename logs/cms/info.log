@@ -1454,3 +1454,636 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1533661469.019
     'REQUEST_TIME' => 1533661469
 ]
+2018-08-08 01:30:19 [127.0.0.1][2][-][info][yii\web\Session::open] Session started
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:103
+2018-08-08 01:30:19 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `user` WHERE (`id`=2) AND (`status`=1)
+    in E:\Duan\petshop\backend\models\User.php:86
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:103
+2018-08-08 01:30:19 [127.0.0.1][2][-][info][yii\db\Connection::open] Opening DB connection: mysql:host=127.0.0.1;dbname=petshop
+    in E:\Duan\petshop\backend\models\User.php:86
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:103
+2018-08-08 01:30:19 [127.0.0.1][2][-][info][yii\db\Command::query] SHOW FULL COLUMNS FROM `user`
+    in E:\Duan\petshop\backend\models\User.php:86
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:103
+2018-08-08 01:30:19 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'
+    in E:\Duan\petshop\backend\models\User.php:86
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:103
+2018-08-08 01:30:19 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `auth_assignment` WHERE `user_id`='2'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 01:30:19 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='/pets/index'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 01:30:19 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='/pets/index'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 01:30:19 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='User'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 01:30:19 [127.0.0.1][2][-][info][yii\db\Command::query] SHOW FULL COLUMNS FROM `pets`
+    in E:\Duan\petshop\backend\models\PetSearch.php:49
+    in E:\Duan\petshop\backend\controllers\PetsController.php:36
+2018-08-08 01:30:19 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'pets' AND kcu.table_name = 'pets'
+    in E:\Duan\petshop\backend\models\PetSearch.php:49
+    in E:\Duan\petshop\backend\controllers\PetsController.php:36
+2018-08-08 01:30:19 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `pettype`
+    in E:\Duan\petshop\backend\models\Pets.php:46
+    in E:\Duan\petshop\backend\views\pets\_search.php:22
+    in E:\Duan\petshop\backend\views\pets\index.php:21
+2018-08-08 01:30:19 [127.0.0.1][2][-][info][yii\db\Command::query] SHOW FULL COLUMNS FROM `pettype`
+    in E:\Duan\petshop\backend\models\Pets.php:46
+    in E:\Duan\petshop\backend\views\pets\_search.php:22
+    in E:\Duan\petshop\backend\views\pets\index.php:21
+2018-08-08 01:30:19 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'pettype' AND kcu.table_name = 'pettype'
+    in E:\Duan\petshop\backend\models\Pets.php:46
+    in E:\Duan\petshop\backend\views\pets\_search.php:22
+    in E:\Duan\petshop\backend\views\pets\index.php:21
+2018-08-08 01:30:19 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT COUNT(*) FROM `pets`
+    in E:\Duan\petshop\awesome\backend\grid\AwsBaseListView.php:167
+    in E:\Duan\petshop\awesome\backend\grid\AwsGridView.php:359
+    in E:\Duan\petshop\backend\views\pets\index.php:80
+2018-08-08 01:30:19 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `pets` ORDER BY `id` DESC LIMIT 20
+    in E:\Duan\petshop\awesome\backend\grid\AwsBaseListView.php:167
+    in E:\Duan\petshop\awesome\backend\grid\AwsGridView.php:359
+    in E:\Duan\petshop\backend\views\pets\index.php:80
+2018-08-08 01:30:19 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `pettype` WHERE `id`='3'
+    in E:\Duan\petshop\backend\views\pets\index.php:52
+    in E:\Duan\petshop\awesome\backend\grid\AwsColumn.php:182
+    in E:\Duan\petshop\awesome\backend\grid\AwsDataColumn.php:254
+2018-08-08 01:30:19 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `user` WHERE `id`='2'
+    in E:\Duan\petshop\backend\models\Pets.php:57
+    in E:\Duan\petshop\backend\views\pets\index.php:64
+    in E:\Duan\petshop\awesome\backend\grid\AwsColumn.php:182
+2018-08-08 01:30:19 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `pettype` WHERE `id`='2'
+    in E:\Duan\petshop\backend\views\pets\index.php:52
+    in E:\Duan\petshop\awesome\backend\grid\AwsColumn.php:182
+    in E:\Duan\petshop\awesome\backend\grid\AwsDataColumn.php:254
+2018-08-08 01:30:19 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `user` WHERE `id`='3'
+    in E:\Duan\petshop\backend\models\Pets.php:57
+    in E:\Duan\petshop\backend\views\pets\index.php:64
+    in E:\Duan\petshop\awesome\backend\grid\AwsColumn.php:182
+2018-08-08 01:30:19 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `pettype` WHERE `id`='3'
+    in E:\Duan\petshop\backend\views\pets\index.php:52
+    in E:\Duan\petshop\awesome\backend\grid\AwsColumn.php:182
+    in E:\Duan\petshop\awesome\backend\grid\AwsDataColumn.php:254
+2018-08-08 01:30:19 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `user` WHERE `id`='1'
+    in E:\Duan\petshop\backend\models\Pets.php:57
+    in E:\Duan\petshop\backend\views\pets\index.php:64
+    in E:\Duan\petshop\awesome\backend\grid\AwsColumn.php:182
+2018-08-08 01:30:19 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `pettype` WHERE `id`='2'
+    in E:\Duan\petshop\backend\views\pets\index.php:52
+    in E:\Duan\petshop\awesome\backend\grid\AwsColumn.php:182
+    in E:\Duan\petshop\awesome\backend\grid\AwsDataColumn.php:254
+2018-08-08 01:30:19 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `user` WHERE `id`='1'
+    in E:\Duan\petshop\backend\models\Pets.php:57
+    in E:\Duan\petshop\backend\views\pets\index.php:64
+    in E:\Duan\petshop\awesome\backend\grid\AwsColumn.php:182
+2018-08-08 01:30:19 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `menu`
+    in E:\Duan\petshop\backend\components\common\MenuHelper.php:73
+    in E:\Duan\petshop\backend\views\layouts\main.php:180
+    in E:\Duan\petshop\backend\controllers\PetsController.php:41
+2018-08-08 01:30:19 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT `b`.* FROM `auth_assignment` `a`, `auth_item` `b` WHERE (`a`.`item_name`=`b`.`name`) AND (`a`.`user_id`='2') AND (`b`.`type`=2)
+    in E:\Duan\petshop\backend\components\common\MenuHelper.php:80
+    in E:\Duan\petshop\backend\views\layouts\main.php:180
+    in E:\Duan\petshop\backend\controllers\PetsController.php:41
+2018-08-08 01:30:19 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `auth_item_child`
+    in E:\Duan\petshop\backend\components\common\MenuHelper.php:80
+    in E:\Duan\petshop\backend\views\layouts\main.php:180
+    in E:\Duan\petshop\backend\controllers\PetsController.php:41
+2018-08-08 01:30:19 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT `item_name` FROM `auth_assignment` WHERE `user_id`='2'
+    in E:\Duan\petshop\backend\components\common\MenuHelper.php:80
+    in E:\Duan\petshop\backend\views\layouts\main.php:180
+    in E:\Duan\petshop\backend\controllers\PetsController.php:41
+2018-08-08 01:30:19 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `auth_item` WHERE (`type`=2) AND (`name` IN ('/pets/*', '/pets/create', '/pets/delete', '/pets/index', '/pets/update', '/pets/view'))
+    in E:\Duan\petshop\backend\components\common\MenuHelper.php:80
+    in E:\Duan\petshop\backend\views\layouts\main.php:180
+    in E:\Duan\petshop\backend\controllers\PetsController.php:41
+2018-08-08 01:30:19 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT `id` FROM `menu` WHERE route like '/pets/%'
+    in E:\Duan\petshop\backend\components\common\MenuHelper.php:120
+    in E:\Duan\petshop\backend\views\layouts\main.php:180
+    in E:\Duan\petshop\backend\controllers\PetsController.php:41
+2018-08-08 01:30:19 [127.0.0.1][2][-][info][application] $_COOKIE = [
+    '_csrf' => '69a5b88a451af804df487f684fc0cd49d00cb6681fe89b81d41bce2f9ebc536fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\">»’úLm^Å%¶ pjÆš¾µªÍëÑ$,LHt Î\";}'
+    'PHPSESSID' => 't5ep0fs88u7t05j1ftcurf7s92'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => '8ndyq'
+    '__captcha/site/captchacount' => 1
+    '__id' => 2
+    '__expire' => 1533673819
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1:8010'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://127.0.0.1:8010/pets/view?id=4'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,vi;q=0.8'
+    'HTTP_COOKIE' => '_csrf=69a5b88a451af804df487f684fc0cd49d00cb6681fe89b81d41bce2f9ebc536fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%3E%05%BB%92%FALm%5E%C5%07%25%B6%A0pj%C6%9A%BE%90%B5%AA%CD%EB%D1%24%11%2CLHt%A0%CE%22%3B%7D; PHPSESSID=t5ep0fs88u7t05j1ftcurf7s92'
+    'PATH' => 'G:\\ProgramData\\Oracle\\Java\\javapath;G:\\Windows\\system32;G:\\Windows;G:\\Windows\\System32\\Wbem;G:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;G:\\Program Files\\Intel\\WiFi\\bin\\;G:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;G:\\Program Files\\Git\\cmd;G:\\Program Files\\TortoiseSVN\\bin;G:\\Program Files\\nodejs\\;E:\\Duan\\reactnative\\platform-tools;G:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;G:\\Program Files\\dotnet\\;G:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;G:\\Program Files\\Intel\\WiFi\\bin\\;G:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;G:\\Users\\Nguyen Quoc Khanh\\AppData\\Local\\atom\\bin;G:\\Users\\Nguyen Quoc Khanh\\AppData\\Roaming\\npm;G:\\Users\\Nguyen Quoc Khanh\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'G:\\Windows'
+    'COMSPEC' => 'G:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'G:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19 Server at 127.0.0.1 Port 8010</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8010'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Duan/petshop/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Duan/petshop/backend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/Duan/petshop/backend/web/index.php'
+    'REMOTE_PORT' => '64181'
+    'REDIRECT_URL' => 'http://127.0.0.1:8010/pets/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/pets/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533666619.179
+    'REQUEST_TIME' => 1533666619
+]
+2018-08-08 01:30:20 [127.0.0.1][2][-][info][yii\web\Session::open] Session started
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:103
+2018-08-08 01:30:20 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `user` WHERE (`id`=2) AND (`status`=1)
+    in E:\Duan\petshop\backend\models\User.php:86
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:103
+2018-08-08 01:30:20 [127.0.0.1][2][-][info][yii\db\Connection::open] Opening DB connection: mysql:host=127.0.0.1;dbname=petshop
+    in E:\Duan\petshop\backend\models\User.php:86
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:103
+2018-08-08 01:30:20 [127.0.0.1][2][-][info][yii\db\Command::query] SHOW FULL COLUMNS FROM `user`
+    in E:\Duan\petshop\backend\models\User.php:86
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:103
+2018-08-08 01:30:20 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'
+    in E:\Duan\petshop\backend\models\User.php:86
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:103
+2018-08-08 01:30:20 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `auth_assignment` WHERE `user_id`='2'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 01:30:20 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='/pets/index'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 01:30:20 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT `parent` FROM `auth_item_child` WHERE `child`='/pets/index'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 01:30:20 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `auth_item` WHERE `name`='User'
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\Helper.php:119
+    in E:\Duan\petshop\vendor\mdmsoft\yii2-admin\components\AccessControl.php:70
+2018-08-08 01:30:20 [127.0.0.1][2][-][info][yii\db\Command::query] SHOW FULL COLUMNS FROM `pets`
+    in E:\Duan\petshop\backend\models\PetSearch.php:49
+    in E:\Duan\petshop\backend\controllers\PetsController.php:36
+2018-08-08 01:30:20 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'pets' AND kcu.table_name = 'pets'
+    in E:\Duan\petshop\backend\models\PetSearch.php:49
+    in E:\Duan\petshop\backend\controllers\PetsController.php:36
+2018-08-08 01:30:20 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `pettype`
+    in E:\Duan\petshop\backend\models\Pets.php:46
+    in E:\Duan\petshop\backend\views\pets\_search.php:22
+    in E:\Duan\petshop\backend\views\pets\index.php:21
+2018-08-08 01:30:20 [127.0.0.1][2][-][info][yii\db\Command::query] SHOW FULL COLUMNS FROM `pettype`
+    in E:\Duan\petshop\backend\models\Pets.php:46
+    in E:\Duan\petshop\backend\views\pets\_search.php:22
+    in E:\Duan\petshop\backend\views\pets\index.php:21
+2018-08-08 01:30:20 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'pettype' AND kcu.table_name = 'pettype'
+    in E:\Duan\petshop\backend\models\Pets.php:46
+    in E:\Duan\petshop\backend\views\pets\_search.php:22
+    in E:\Duan\petshop\backend\views\pets\index.php:21
+2018-08-08 01:30:20 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT COUNT(*) FROM `pets`
+    in E:\Duan\petshop\awesome\backend\grid\AwsBaseListView.php:167
+    in E:\Duan\petshop\awesome\backend\grid\AwsGridView.php:359
+    in E:\Duan\petshop\backend\views\pets\index.php:80
+2018-08-08 01:30:20 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `pets` ORDER BY `id` DESC LIMIT 20
+    in E:\Duan\petshop\awesome\backend\grid\AwsBaseListView.php:167
+    in E:\Duan\petshop\awesome\backend\grid\AwsGridView.php:359
+    in E:\Duan\petshop\backend\views\pets\index.php:80
+2018-08-08 01:30:20 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `pettype` WHERE `id`='3'
+    in E:\Duan\petshop\backend\views\pets\index.php:52
+    in E:\Duan\petshop\awesome\backend\grid\AwsColumn.php:182
+    in E:\Duan\petshop\awesome\backend\grid\AwsDataColumn.php:254
+2018-08-08 01:30:20 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `user` WHERE `id`='2'
+    in E:\Duan\petshop\backend\models\Pets.php:57
+    in E:\Duan\petshop\backend\views\pets\index.php:64
+    in E:\Duan\petshop\awesome\backend\grid\AwsColumn.php:182
+2018-08-08 01:30:20 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `pettype` WHERE `id`='2'
+    in E:\Duan\petshop\backend\views\pets\index.php:52
+    in E:\Duan\petshop\awesome\backend\grid\AwsColumn.php:182
+    in E:\Duan\petshop\awesome\backend\grid\AwsDataColumn.php:254
+2018-08-08 01:30:20 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `user` WHERE `id`='3'
+    in E:\Duan\petshop\backend\models\Pets.php:57
+    in E:\Duan\petshop\backend\views\pets\index.php:64
+    in E:\Duan\petshop\awesome\backend\grid\AwsColumn.php:182
+2018-08-08 01:30:20 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `pettype` WHERE `id`='3'
+    in E:\Duan\petshop\backend\views\pets\index.php:52
+    in E:\Duan\petshop\awesome\backend\grid\AwsColumn.php:182
+    in E:\Duan\petshop\awesome\backend\grid\AwsDataColumn.php:254
+2018-08-08 01:30:20 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `user` WHERE `id`='1'
+    in E:\Duan\petshop\backend\models\Pets.php:57
+    in E:\Duan\petshop\backend\views\pets\index.php:64
+    in E:\Duan\petshop\awesome\backend\grid\AwsColumn.php:182
+2018-08-08 01:30:20 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `pettype` WHERE `id`='2'
+    in E:\Duan\petshop\backend\views\pets\index.php:52
+    in E:\Duan\petshop\awesome\backend\grid\AwsColumn.php:182
+    in E:\Duan\petshop\awesome\backend\grid\AwsDataColumn.php:254
+2018-08-08 01:30:20 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `user` WHERE `id`='1'
+    in E:\Duan\petshop\backend\models\Pets.php:57
+    in E:\Duan\petshop\backend\views\pets\index.php:64
+    in E:\Duan\petshop\awesome\backend\grid\AwsColumn.php:182
+2018-08-08 01:30:20 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `menu`
+    in E:\Duan\petshop\backend\components\common\MenuHelper.php:73
+    in E:\Duan\petshop\backend\views\layouts\main.php:180
+    in E:\Duan\petshop\backend\controllers\PetsController.php:41
+2018-08-08 01:30:20 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT `b`.* FROM `auth_assignment` `a`, `auth_item` `b` WHERE (`a`.`item_name`=`b`.`name`) AND (`a`.`user_id`='2') AND (`b`.`type`=2)
+    in E:\Duan\petshop\backend\components\common\MenuHelper.php:80
+    in E:\Duan\petshop\backend\views\layouts\main.php:180
+    in E:\Duan\petshop\backend\controllers\PetsController.php:41
+2018-08-08 01:30:20 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `auth_item_child`
+    in E:\Duan\petshop\backend\components\common\MenuHelper.php:80
+    in E:\Duan\petshop\backend\views\layouts\main.php:180
+    in E:\Duan\petshop\backend\controllers\PetsController.php:41
+2018-08-08 01:30:20 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT `item_name` FROM `auth_assignment` WHERE `user_id`='2'
+    in E:\Duan\petshop\backend\components\common\MenuHelper.php:80
+    in E:\Duan\petshop\backend\views\layouts\main.php:180
+    in E:\Duan\petshop\backend\controllers\PetsController.php:41
+2018-08-08 01:30:20 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT * FROM `auth_item` WHERE (`type`=2) AND (`name` IN ('/pets/*', '/pets/create', '/pets/delete', '/pets/index', '/pets/update', '/pets/view'))
+    in E:\Duan\petshop\backend\components\common\MenuHelper.php:80
+    in E:\Duan\petshop\backend\views\layouts\main.php:180
+    in E:\Duan\petshop\backend\controllers\PetsController.php:41
+2018-08-08 01:30:20 [127.0.0.1][2][-][info][yii\db\Command::query] SELECT `id` FROM `menu` WHERE route like '/pets/%'
+    in E:\Duan\petshop\backend\components\common\MenuHelper.php:120
+    in E:\Duan\petshop\backend\views\layouts\main.php:180
+    in E:\Duan\petshop\backend\controllers\PetsController.php:41
+2018-08-08 01:30:20 [127.0.0.1][2][-][info][application] $_COOKIE = [
+    '_csrf' => '69a5b88a451af804df487f684fc0cd49d00cb6681fe89b81d41bce2f9ebc536fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\">»’úLm^Å%¶ pjÆš¾µªÍëÑ$,LHt Î\";}'
+    'PHPSESSID' => 't5ep0fs88u7t05j1ftcurf7s92'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => '8ndyq'
+    '__captcha/site/captchacount' => 1
+    '__id' => 2
+    '__expire' => 1533673820
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1:8010'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://127.0.0.1:8010/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,vi;q=0.8'
+    'HTTP_COOKIE' => '_csrf=69a5b88a451af804df487f684fc0cd49d00cb6681fe89b81d41bce2f9ebc536fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%3E%05%BB%92%FALm%5E%C5%07%25%B6%A0pj%C6%9A%BE%90%B5%AA%CD%EB%D1%24%11%2CLHt%A0%CE%22%3B%7D; PHPSESSID=t5ep0fs88u7t05j1ftcurf7s92'
+    'PATH' => 'G:\\ProgramData\\Oracle\\Java\\javapath;G:\\Windows\\system32;G:\\Windows;G:\\Windows\\System32\\Wbem;G:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;G:\\Program Files\\Intel\\WiFi\\bin\\;G:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;G:\\Program Files\\Git\\cmd;G:\\Program Files\\TortoiseSVN\\bin;G:\\Program Files\\nodejs\\;E:\\Duan\\reactnative\\platform-tools;G:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;G:\\Program Files\\dotnet\\;G:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;G:\\Program Files\\Intel\\WiFi\\bin\\;G:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;G:\\Users\\Nguyen Quoc Khanh\\AppData\\Local\\atom\\bin;G:\\Users\\Nguyen Quoc Khanh\\AppData\\Roaming\\npm;G:\\Users\\Nguyen Quoc Khanh\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'G:\\Windows'
+    'COMSPEC' => 'G:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'G:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19 Server at 127.0.0.1 Port 8010</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8010'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Duan/petshop/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Duan/petshop/backend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/Duan/petshop/backend/web/index.php'
+    'REMOTE_PORT' => '64181'
+    'REDIRECT_URL' => 'http://127.0.0.1:8010/pets/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/pets/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533666620.086
+    'REQUEST_TIME' => 1533666620
+]
+2018-08-08 01:30:20 [127.0.0.1][-][t5ep0fs88u7t05j1ftcurf7s92][info][yii\web\Session::open] Session started
+    in E:\Duan\petshop\backend\controllers\AppController.php:18
+2018-08-08 01:30:20 [127.0.0.1][-][t5ep0fs88u7t05j1ftcurf7s92][info][application] $_COOKIE = [
+    '_csrf' => '69a5b88a451af804df487f684fc0cd49d00cb6681fe89b81d41bce2f9ebc536fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\">»’úLm^Å%¶ pjÆš¾µªÍëÑ$,LHt Î\";}'
+    'PHPSESSID' => 't5ep0fs88u7t05j1ftcurf7s92'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => '8ndyq'
+    '__captcha/site/captchacount' => 1
+    '__id' => 2
+    '__expire' => 1533673820
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1:8010'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://127.0.0.1:8010/pets/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,vi;q=0.8'
+    'HTTP_COOKIE' => '_csrf=69a5b88a451af804df487f684fc0cd49d00cb6681fe89b81d41bce2f9ebc536fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%3E%05%BB%92%FALm%5E%C5%07%25%B6%A0pj%C6%9A%BE%90%B5%AA%CD%EB%D1%24%11%2CLHt%A0%CE%22%3B%7D; PHPSESSID=t5ep0fs88u7t05j1ftcurf7s92'
+    'PATH' => 'G:\\ProgramData\\Oracle\\Java\\javapath;G:\\Windows\\system32;G:\\Windows;G:\\Windows\\System32\\Wbem;G:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;G:\\Program Files\\Intel\\WiFi\\bin\\;G:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;G:\\Program Files\\Git\\cmd;G:\\Program Files\\TortoiseSVN\\bin;G:\\Program Files\\nodejs\\;E:\\Duan\\reactnative\\platform-tools;G:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;G:\\Program Files\\dotnet\\;G:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;G:\\Program Files\\Intel\\WiFi\\bin\\;G:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;G:\\Users\\Nguyen Quoc Khanh\\AppData\\Local\\atom\\bin;G:\\Users\\Nguyen Quoc Khanh\\AppData\\Roaming\\npm;G:\\Users\\Nguyen Quoc Khanh\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'G:\\Windows'
+    'COMSPEC' => 'G:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'G:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19 Server at 127.0.0.1 Port 8010</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8010'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Duan/petshop/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Duan/petshop/backend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/Duan/petshop/backend/web/index.php'
+    'REMOTE_PORT' => '64181'
+    'REDIRECT_URL' => 'http://127.0.0.1:8010/plugins/ckeditor/ckeditor/ckeditor.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/plugins/ckeditor/ckeditor/ckeditor.js'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533666620.39
+    'REQUEST_TIME' => 1533666620
+]
+2018-08-08 01:30:20 [127.0.0.1][-][t5ep0fs88u7t05j1ftcurf7s92][info][yii\web\Session::open] Session started
+    in E:\Duan\petshop\backend\controllers\AppController.php:18
+2018-08-08 01:30:20 [127.0.0.1][-][t5ep0fs88u7t05j1ftcurf7s92][info][application] $_COOKIE = [
+    '_csrf' => '69a5b88a451af804df487f684fc0cd49d00cb6681fe89b81d41bce2f9ebc536fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\">»’úLm^Å%¶ pjÆš¾µªÍëÑ$,LHt Î\";}'
+    'PHPSESSID' => 't5ep0fs88u7t05j1ftcurf7s92'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => '8ndyq'
+    '__captcha/site/captchacount' => 1
+    '__id' => 2
+    '__expire' => 1533673820
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1:8010'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://127.0.0.1:8010/pets/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,vi;q=0.8'
+    'HTTP_COOKIE' => '_csrf=69a5b88a451af804df487f684fc0cd49d00cb6681fe89b81d41bce2f9ebc536fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%3E%05%BB%92%FALm%5E%C5%07%25%B6%A0pj%C6%9A%BE%90%B5%AA%CD%EB%D1%24%11%2CLHt%A0%CE%22%3B%7D; PHPSESSID=t5ep0fs88u7t05j1ftcurf7s92'
+    'PATH' => 'G:\\ProgramData\\Oracle\\Java\\javapath;G:\\Windows\\system32;G:\\Windows;G:\\Windows\\System32\\Wbem;G:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;G:\\Program Files\\Intel\\WiFi\\bin\\;G:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;G:\\Program Files\\Git\\cmd;G:\\Program Files\\TortoiseSVN\\bin;G:\\Program Files\\nodejs\\;E:\\Duan\\reactnative\\platform-tools;G:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;G:\\Program Files\\dotnet\\;G:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;G:\\Program Files\\Intel\\WiFi\\bin\\;G:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;G:\\Users\\Nguyen Quoc Khanh\\AppData\\Local\\atom\\bin;G:\\Users\\Nguyen Quoc Khanh\\AppData\\Roaming\\npm;G:\\Users\\Nguyen Quoc Khanh\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'G:\\Windows'
+    'COMSPEC' => 'G:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'G:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19 Server at 127.0.0.1 Port 8010</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8010'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Duan/petshop/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Duan/petshop/backend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/Duan/petshop/backend/web/index.php'
+    'REMOTE_PORT' => '64181'
+    'REDIRECT_URL' => 'http://127.0.0.1:8010/plugins/ckeditor/ckeditor/ckeditor.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/plugins/ckeditor/ckeditor/ckeditor.js'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533666620.894
+    'REQUEST_TIME' => 1533666620
+]
+2018-08-08 01:30:21 [127.0.0.1][-][t5ep0fs88u7t05j1ftcurf7s92][info][yii\web\Session::open] Session started
+    in E:\Duan\petshop\backend\controllers\AppController.php:18
+2018-08-08 01:30:21 [127.0.0.1][-][t5ep0fs88u7t05j1ftcurf7s92][info][application] $_COOKIE = [
+    '_csrf' => '69a5b88a451af804df487f684fc0cd49d00cb6681fe89b81d41bce2f9ebc536fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\">»’úLm^Å%¶ pjÆš¾µªÍëÑ$,LHt Î\";}'
+    'PHPSESSID' => 't5ep0fs88u7t05j1ftcurf7s92'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => '8ndyq'
+    '__captcha/site/captchacount' => 1
+    '__id' => 2
+    '__expire' => 1533673820
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1:8010'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://127.0.0.1:8010/pets/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,vi;q=0.8'
+    'HTTP_COOKIE' => '_csrf=69a5b88a451af804df487f684fc0cd49d00cb6681fe89b81d41bce2f9ebc536fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%3E%05%BB%92%FALm%5E%C5%07%25%B6%A0pj%C6%9A%BE%90%B5%AA%CD%EB%D1%24%11%2CLHt%A0%CE%22%3B%7D; PHPSESSID=t5ep0fs88u7t05j1ftcurf7s92'
+    'PATH' => 'G:\\ProgramData\\Oracle\\Java\\javapath;G:\\Windows\\system32;G:\\Windows;G:\\Windows\\System32\\Wbem;G:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;G:\\Program Files\\Intel\\WiFi\\bin\\;G:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;G:\\Program Files\\Git\\cmd;G:\\Program Files\\TortoiseSVN\\bin;G:\\Program Files\\nodejs\\;E:\\Duan\\reactnative\\platform-tools;G:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;G:\\Program Files\\dotnet\\;G:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;G:\\Program Files\\Intel\\WiFi\\bin\\;G:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;G:\\Users\\Nguyen Quoc Khanh\\AppData\\Local\\atom\\bin;G:\\Users\\Nguyen Quoc Khanh\\AppData\\Roaming\\npm;G:\\Users\\Nguyen Quoc Khanh\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'G:\\Windows'
+    'COMSPEC' => 'G:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'G:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19 Server at 127.0.0.1 Port 8010</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8010'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Duan/petshop/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Duan/petshop/backend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/Duan/petshop/backend/web/index.php'
+    'REMOTE_PORT' => '64181'
+    'REDIRECT_URL' => 'http://127.0.0.1:8010/plugins/ckeditor/ckeditor/ckeditor.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/plugins/ckeditor/ckeditor/ckeditor.js'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533666621.434
+    'REQUEST_TIME' => 1533666621
+]
